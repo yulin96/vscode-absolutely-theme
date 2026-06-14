@@ -2,7 +2,7 @@
   "name": "vscode-absolutely-theme",
   "displayName": "Absolutely Theme",
   "description": "A calm, warm VS Code color theme inspired by the Absolutely palette.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "yulin96",
   "icon": "icon.png",
   "license": "MIT",

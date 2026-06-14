@@ -1,0 +1,44 @@
+{
+  "name": "vscode-absolutely-theme",
+  "displayName": "Absolutely Theme",
+  "description": "A calm, warm VS Code color theme inspired by the Absolutely palette.",
+  "version": "0.0.3",
+  "publisher": "yulin96",
+  "icon": "icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yulin96/vscode-absolutely-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light theme",
+    "dark theme",
+    "warm"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Absolutely Light",
+        "uiTheme": "vs",
+        "path": "./themes/absolutely-light-color-theme.json"
+      },
+      {
+        "label": "Absolutely Light Warm",
+        "uiTheme": "vs",
+        "path": "./themes/absolutely-light-warm-color-theme.json"
+      },
+      {
+        "label": "Absolutely Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/absolutely-dark-color-theme.json"
+      }
+    ]
+  }
+}

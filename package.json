@@ -1,7 +1,7 @@
 {
   "name": "vscode-absolutely-theme",
   "displayName": "Absolutely Theme",
-  "description": "A calm, warm VS Code color theme inspired by the Absolutely palette.",
+  "description": "A warm, calm, and minimalist color theme family (light, dark, warm light) for VS Code, designed to reduce eye strain with cozy, natural, low-contrast tones.",
   "version": "0.0.4",
   "publisher": "yulin96",
   "icon": "icon.png",
@@ -9,6 +9,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/yulin96/vscode-absolutely-theme.git"
+  },
+  "homepage": "https://github.com/yulin96/vscode-absolutely-theme#readme",
+  "bugs": {
+    "url": "https://github.com/yulin96/vscode-absolutely-theme/issues"
   },
   "engines": {
     "vscode": "^1.85.0"
@@ -18,9 +22,18 @@
   ],
   "keywords": [
     "theme",
+    "color-theme",
     "light theme",
     "dark theme",
-    "warm"
+    "warm",
+    "cozy",
+    "minimalist",
+    "minimal",
+    "low-contrast",
+    "natural",
+    "calm",
+    "aesthetic",
+    "soft"
   ],
   "contributes": {
     "themes": [

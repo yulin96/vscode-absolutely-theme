@@ -4,9 +4,9 @@ A warm, calm, and minimalist color theme family for Visual Studio Code, inspired
 
 Designed with carefully selected low-contrast tones to reduce eye strain, Absolutely Theme provides a peaceful and focused workspace for long coding and writing sessions.
 
-[![Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/yulin96.vscode-absolutely-theme?color=CC7D5E&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/yulin96.vscode-absolutely-theme?color=CC7D5E)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/yulin96.vscode-absolutely-theme?color=CC7D5E)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![Marketplace Version](https://vsmarketplacebadges.dev/version/yulin96.vscode-absolutely-theme.svg?color=CC7D5E)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![Installs](https://vsmarketplacebadges.dev/installs/yulin96.vscode-absolutely-theme.svg?color=CC7D5E)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![Rating](https://vsmarketplacebadges.dev/rating/yulin96.vscode-absolutely-theme.svg?color=CC7D5E)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
 [![License](https://img.shields.io/github/license/yulin96/vscode-absolutely-theme?color=CC7D5E)](https://github.com/yulin96/vscode-absolutely-theme/blob/main/LICENSE)
 
 ---

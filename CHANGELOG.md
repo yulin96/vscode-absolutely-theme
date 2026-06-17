@@ -2,6 +2,15 @@
 
 All notable changes to the **Absolutely Theme** extension will be documented in this file.
 
+## [0.0.7] - 2026-06-17
+
+### Changed
+- Refined light, warm light, and dark theme colors for better readability and a cleaner editor experience.
+- Improved Vue syntax highlighting to better distinguish components, HTML tags, attributes, class values, variables, functions, and strings.
+- Increased Git decoration and SCM graph color contrast for clearer changed-file and history states.
+- Softened UI border colors to reduce visual noise while keeping editor structure readable.
+- Updated `README.md` to reflect the current theme direction, palette, and highlighting improvements.
+
 ## [0.0.6] - 2026-06-14
 
 ### Changed

@@ -1,25 +1,34 @@
 # Absolutely Theme
 
-A warm, calm, and minimalist color theme family for Visual Studio Code, inspired by the cozy and natural Absolutely palette.
+A clean, calm, and readable color theme family for Visual Studio Code, inspired by warm paper tones and modern coding tools.
 
-Designed with carefully selected low-contrast tones to reduce eye strain, Absolutely Theme provides a peaceful and focused workspace for long coding and writing sessions.
+Absolutely Theme balances comfort with clarity: soft backgrounds, readable contrast, clearer Git colors, and carefully separated Vue / HTML syntax highlighting for long coding sessions.
 
-[![Marketplace Version](https://vsmarketplacebadges.dev/version/yulin96.vscode-absolutely-theme.svg?color=CC7D5E)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
-[![Installs](https://vsmarketplacebadges.dev/installs/yulin96.vscode-absolutely-theme.svg?color=CC7D5E)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
-[![Rating](https://vsmarketplacebadges.dev/rating/yulin96.vscode-absolutely-theme.svg?color=CC7D5E)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
-[![License](https://img.shields.io/github/license/yulin96/vscode-absolutely-theme?color=CC7D5E)](https://github.com/yulin96/vscode-absolutely-theme/blob/main/LICENSE)
+[![Marketplace Version](https://vsmarketplacebadges.dev/version/yulin96.vscode-absolutely-theme.svg?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![Installs](https://vsmarketplacebadges.dev/installs/yulin96.vscode-absolutely-theme.svg?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![Rating](https://vsmarketplacebadges.dev/rating/yulin96.vscode-absolutely-theme.svg?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![License](https://img.shields.io/github/license/yulin96/vscode-absolutely-theme?color=B8674C)](https://github.com/yulin96/vscode-absolutely-theme/blob/main/LICENSE)
 
 ---
 
 ## 🎨 Theme Variants
 
-Absolutely Theme features three carefully balanced variants, tailored for different lighting conditions and styles:
+Absolutely Theme includes three balanced variants for different lighting conditions:
 
 | Variant | Type | Description | Background | Accent |
 | :--- | :--- | :--- | :---: | :---: |
-| **Absolutely Light** | Light | A clean, soft light theme designed for bright rooms without harsh glares. | `#F9F9F7` | `#CC7D5E` |
-| **Absolutely Light Warm** | Light | A cozy, warm-toned light theme resembling physical book paper. | `#F7F4EC` | `#CC7D5E` |
-| **Absolutely Dark** | Dark | A dark theme with muted tones and low contrast to soothe the eyes at night. | `#252522` | `#D98666` |
+| **Absolutely Light** | Light | A clean light theme with soft contrast and crisp editor UI. | `#FAF8F3` | `#B8674C` |
+| **Absolutely Light Warm** | Light | A warmer paper-like light theme with the same readable syntax system. | `#FAF6ED` | `#B8674C` |
+| **Absolutely Dark** | Dark | A calm dark theme with warm neutrals and clearer code/Git colors. | `#252522` | `#D98666` |
+
+---
+
+## ✨ Highlights
+
+- Clearer Vue syntax highlighting: components, HTML tags, attributes, class values, variables, functions, and strings are easier to tell apart.
+- More readable Git colors for modified, added, deleted, untracked, and history graph states.
+- Softer borders and cleaner editor surfaces to keep the interface calm without making it blurry.
+- Consistent light, warm light, and dark variants.
 
 ---
 

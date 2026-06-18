@@ -293,12 +293,12 @@
   },
   "semanticTokenColors": {
     "namespace": "#B5A0C2",
-    "variable": "#D0A45F",
-    "variable.readonly": "#D0A45F",
+    "variable": "#BCA88A",
+    "variable.readonly": "#BCA88A",
     "variable.defaultLibrary": "#9B8AB3",
     "parameter": "#C59B7C",
-    "property": "#C3AE61",
-    "property.readonly": "#C3AE61",
+    "property": "#B7A069",
+    "property.readonly": "#B7A069",
     "function": "#A6BF74",
     "function.defaultLibrary": "#9B8AB3",
     "method": "#A6BF74",
@@ -308,7 +308,7 @@
     "class": "#9B8AB3",
     "enum": "#9B8AB3",
     "typeParameter": "#9B8AB3",
-    "enumMember": "#C3AE61",
+    "enumMember": "#B7A069",
     "number": "#D0A45F",
     "regexp": "#9B8AB3",
     "decorator": "#D59A73",
@@ -394,12 +394,16 @@
       "settings": { "foreground": "#B5A0C2" }
     },
     {
-      "scope": ["variable", "identifier", "meta.object-literal.key"],
-      "settings": { "foreground": "#C8B1CF" }
+      "scope": ["variable", "identifier"],
+      "settings": { "foreground": "#BCA88A" }
+    },
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": { "foreground": "#B7A069" }
     },
     {
       "scope": ["variable.other.constant", "meta.definition.variable"],
-      "settings": { "foreground": "#D0A45F" }
+      "settings": { "foreground": "#BCA88A" }
     },
     {
       "scope": ["variable.parameter"],
@@ -407,11 +411,11 @@
     },
     {
       "scope": ["variable.other.property", "meta.property-name", "support.type.property-name.json"],
-      "settings": { "foreground": "#B5A0C2" }
+      "settings": { "foreground": "#B7A069" }
     },
     {
       "scope": ["variable.css", "variable.scss", "variable.less", "support.type.custom-property.name.css"],
-      "settings": { "foreground": "#B5A0C2" }
+      "settings": { "foreground": "#BCA88A" }
     },
     {
       "scope": ["entity.name.tag", "tag.html"],
@@ -431,7 +435,7 @@
     },
     {
       "scope": ["source.css support.type.property-name", "source.scss support.type.property-name", "source.less support.type.property-name"],
-      "settings": { "foreground": "#B5A0C2" }
+      "settings": { "foreground": "#B7A069" }
     },
     {
       "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.class.scss", "entity.other.attribute-name.class.less"],

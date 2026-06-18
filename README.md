@@ -15,12 +15,12 @@ Absolutely Theme balances comfort with clarity: soft backgrounds, readable contr
 
 Absolutely Theme includes four balanced variants for different lighting conditions:
 
-| Variant | Type | Description | Background | Accent |
-| :--- | :--- | :--- | :---: | :---: |
-| **Absolutely Light** | Light | A clean light theme with soft contrast and crisp editor UI. | `#FAF8F3` | `#B8674C` |
-| **Absolutely Light Warm** | Light | A warmer paper-like light theme with the same readable syntax system. | `#FAF6ED` | `#B8674C` |
-| **Absolutely Dark** | Dark | A calm dark theme with warm neutrals and clearer code/Git colors. | `#252522` | `#D98666` |
-| **Absolutely Dark Warm** | Dark | A warmer dark theme with a yellow-leaning editor surface. | `#1F1D18` | `#C79D45` |
+| Variant                   | Type  | Description                                                           | Background |  Accent   |
+| :------------------------ | :---- | :-------------------------------------------------------------------- | :--------: | :-------: |
+| **Absolutely Light**      | Light | A clean light theme with soft contrast and crisp editor UI.           | `#FAF8F3`  | `#B8674C` |
+| **Absolutely Light Warm** | Light | A warmer paper-like light theme with the same readable syntax system. | `#FAF6ED`  | `#B8674C` |
+| **Absolutely Dark**       | Dark  | A calm dark theme with warm neutrals and clearer code/Git colors.     | `#252522`  | `#D98666` |
+| **Absolutely Dark Warm**  | Dark  | A warmer dark theme with a yellow-leaning editor surface.             | `#1F1D18`  | `#C79D45` |
 
 ---
 
@@ -31,19 +31,6 @@ Absolutely Theme includes four balanced variants for different lighting conditio
 - Softer borders and cleaner editor surfaces to keep the interface calm without making it blurry.
 - Quieter gray selection states to reduce distraction without changing panel surfaces.
 - Consistent light, warm light, dark, and dark warm variants.
-
----
-
-## 📸 Previews
-
-### ☀️ Absolutely Light
-![Absolutely Light](./light.png)
-
-### 🌾 Absolutely Light Warm
-![Absolutely Light Warm](./light_warm.png)
-
-### 🌙 Absolutely Dark
-![Absolutely Dark](./dark.png)
 
 ---
 
@@ -60,18 +47,23 @@ Absolutely Theme includes four balanced variants for different lighting conditio
 ## 🛠 Customization & Tips
 
 ### Enable Semantic Highlighting
+
 For the best visual experience, make sure semantic highlighting is enabled in your settings:
+
 ```json
 "editor.semanticHighlighting.enabled": true
 ```
 
 ### Font Recommendations
+
 This theme pairs beautifully with clean monospaced fonts that support ligatures. We recommend:
+
 - [Fira Code](https://github.com/tonsky/FiraCode)
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [Operator Mono](https://www.typography.com/fonts/operator/styles)
 
 Add this to your `settings.json` for a modern, distraction-free aesthetic:
+
 ```json
 {
   "editor.lineHeight": 1.6,
@@ -83,7 +75,9 @@ Add this to your `settings.json` for a modern, distraction-free aesthetic:
 ```
 
 ### Override Colors
+
 Want to tweak the background or another specific color? You can override any theme color in your user settings:
+
 ```json
 "workbench.colorCustomizations": {
   "[Absolutely Dark]": {

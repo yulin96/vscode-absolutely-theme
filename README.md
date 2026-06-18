@@ -13,13 +13,14 @@ Absolutely Theme balances comfort with clarity: soft backgrounds, readable contr
 
 ## 🎨 Theme Variants
 
-Absolutely Theme includes three balanced variants for different lighting conditions:
+Absolutely Theme includes four balanced variants for different lighting conditions:
 
 | Variant | Type | Description | Background | Accent |
 | :--- | :--- | :--- | :---: | :---: |
 | **Absolutely Light** | Light | A clean light theme with soft contrast and crisp editor UI. | `#FAF8F3` | `#B8674C` |
 | **Absolutely Light Warm** | Light | A warmer paper-like light theme with the same readable syntax system. | `#FAF6ED` | `#B8674C` |
 | **Absolutely Dark** | Dark | A calm dark theme with warm neutrals and clearer code/Git colors. | `#252522` | `#D98666` |
+| **Absolutely Dark Warm** | Dark | A warmer dark theme with a yellow-leaning editor surface. | `#1F1D18` | `#C79D45` |
 
 ---
 
@@ -28,7 +29,8 @@ Absolutely Theme includes three balanced variants for different lighting conditi
 - Clearer Vue syntax highlighting: components, HTML tags, attributes, class values, variables, functions, and strings are easier to tell apart.
 - More readable Git colors for modified, added, deleted, untracked, and history graph states.
 - Softer borders and cleaner editor surfaces to keep the interface calm without making it blurry.
-- Consistent light, warm light, and dark variants.
+- Quieter gray selection states to reduce distraction without changing panel surfaces.
+- Consistent light, warm light, dark, and dark warm variants.
 
 ---
 

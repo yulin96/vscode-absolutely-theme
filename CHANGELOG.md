@@ -2,6 +2,15 @@
 
 All notable changes to the **Absolutely Theme** extension will be documented in this file.
 
+## Unreleased
+
+### Added
+- Added **Absolutely Dark Warm**, a warmer yellow-leaning dark theme variant.
+
+### Changed
+- Removed strong focus/selection borders from menus, quick pick lists, and related popup surfaces.
+- Switched selected rows in menus and pickers to a deeper quiet gray while keeping panel surfaces unchanged.
+
 ## [0.0.7] - 2026-06-17
 
 ### Changed

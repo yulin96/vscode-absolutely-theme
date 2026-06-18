@@ -293,8 +293,8 @@
   },
   "semanticTokenColors": {
     "namespace": "#6F58A5",
-    "variable": "#665F55",
-    "variable.readonly": "#665F55",
+    "variable": "#6B6259",
+    "variable.readonly": "#6B6259",
     "variable.defaultLibrary": "#6F58A5",
     "parameter": "#6B6259",
     "property": "#7F693C",
@@ -395,7 +395,7 @@
     },
     {
       "scope": ["variable", "identifier"],
-      "settings": { "foreground": "#665F55" }
+      "settings": { "foreground": "#6B6259" }
     },
     {
       "scope": ["meta.object-literal.key"],
@@ -403,7 +403,7 @@
     },
     {
       "scope": ["variable.other.constant", "meta.definition.variable"],
-      "settings": { "foreground": "#665F55" }
+      "settings": { "foreground": "#6B6259" }
     },
     {
       "scope": ["variable.parameter"],
@@ -415,7 +415,7 @@
     },
     {
       "scope": ["variable.css", "variable.scss", "variable.less", "support.type.custom-property.name.css"],
-      "settings": { "foreground": "#665F55" }
+      "settings": { "foreground": "#6B6259" }
     },
     {
       "scope": ["entity.name.tag", "tag.html"],

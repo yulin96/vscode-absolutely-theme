@@ -2,7 +2,7 @@
 
 A clean, calm, and readable color theme family for Visual Studio Code, inspired by warm paper tones and modern coding tools.
 
-Absolutely Theme balances comfort with clarity: soft backgrounds, readable contrast, clearer Git colors, and carefully separated Vue / HTML syntax highlighting for long coding sessions.
+Absolutely Theme balances comfort with clarity: soft backgrounds, readable contrast, restrained UI color, and carefully separated Vue / HTML syntax highlighting for long coding sessions.
 
 [![Marketplace Version](https://vsmarketplacebadges.dev/version/yulin96.vscode-absolutely-theme.svg?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
 [![Installs](https://vsmarketplacebadges.dev/installs/yulin96.vscode-absolutely-theme.svg?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
@@ -28,8 +28,9 @@ Absolutely Theme includes four balanced variants for different lighting conditio
 
 - Clearer Vue syntax highlighting: components, HTML tags, attributes, class values, variables, functions, and strings are easier to tell apart.
 - More readable Git colors for modified, added, deleted, untracked, and history graph states.
-- Softer borders and cleaner editor surfaces to keep the interface calm without making it blurry.
-- Quieter gray selection states to reduce distraction without changing panel surfaces.
+- Cleaner terminal output and readable low-priority editor text, including line numbers, CodeLens, and inline Git blame.
+- Restrained selection and border treatment so secondary UI stays calm and does not compete with code.
+- Accent colors are reserved for meaningful states like links, cursor, active items, search, and warnings.
 - Consistent light, warm light, dark, and dark warm variants.
 
 ---

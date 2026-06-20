@@ -2,6 +2,15 @@
 
 All notable changes to the **Absolutely Theme** extension will be documented in this file.
 
+## [0.0.9] - 2026-06-20
+
+### Changed
+
+- Improved terminal readability across light and dark variants, especially low-contrast ANSI output and selection states.
+- Increased readability for low-priority editor text such as line numbers, CodeLens, placeholders, inactive tabs, and inline Git blame.
+- Switched inline Git blame decoration to a quieter gray treatment.
+- Kept borders and secondary UI elements restrained so non-essential areas remain calm and do not draw too much attention.
+
 ## [0.0.8] - 2026-06-17
 
 ### Added

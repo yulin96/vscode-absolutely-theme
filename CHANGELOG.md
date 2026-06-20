@@ -2,7 +2,7 @@
 
 All notable changes to the **Absolutely Theme** extension will be documented in this file.
 
-## [0.0.9] - 2026-06-20
+## [0.1.0] - 2026-06-20
 
 ### Changed
 

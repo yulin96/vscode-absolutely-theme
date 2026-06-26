@@ -294,10 +294,10 @@
   },
   "semanticTokenColors": {
     "namespace": "#6F58A5",
-    "variable": "#B07D48",
-    "variable.readonly": "#B07D48",
+    "variable": "#9C6938",
+    "variable.readonly": "#9C6938",
     "variable.defaultLibrary": "#6F58A5",
-    "parameter": "#B07D48",
+    "parameter": "#9C6938",
     "property": "#7F693C",
     "property.readonly": "#7F693C",
     "function": "#24749A",
@@ -396,7 +396,7 @@
     },
     {
       "scope": ["variable", "identifier"],
-      "settings": { "foreground": "#B07D48" }
+      "settings": { "foreground": "#9C6938" }
     },
     {
       "scope": ["meta.object-literal.key"],
@@ -404,11 +404,11 @@
     },
     {
       "scope": ["variable.other.constant", "meta.definition.variable"],
-      "settings": { "foreground": "#B07D48" }
+      "settings": { "foreground": "#9C6938" }
     },
     {
       "scope": ["variable.parameter"],
-      "settings": { "foreground": "#B07D48" }
+      "settings": { "foreground": "#9C6938" }
     },
     {
       "scope": ["variable.other.property", "meta.property-name", "support.type.property-name.json"],
@@ -416,7 +416,7 @@
     },
     {
       "scope": ["variable.css", "variable.scss", "variable.less", "support.type.custom-property.name.css"],
-      "settings": { "foreground": "#B07D48" }
+      "settings": { "foreground": "#9C6938" }
     },
     {
       "scope": ["entity.name.tag", "tag.html"],

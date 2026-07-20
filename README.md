@@ -80,6 +80,8 @@ Add this to your `settings.json` for a modern, distraction-free aesthetic:
 
 VS Code 1.129 introduced an experimental modern workbench with floating, rounded panels. Absolutely Theme includes dedicated surface, border, input, badge, and status colors for this layout.
 
+This version of Absolutely Theme requires VS Code 1.129 or later so all Modern UI color tokens are validated and applied consistently.
+
 For a compact horizontal layout:
 
 ```json

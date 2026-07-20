@@ -2,6 +2,20 @@
 
 All notable changes to the **Absolutely Theme** extension will be documented in this file.
 
+## [Unreleased]
+
+### Added
+
+- Added dedicated colors for the VS Code Modern UI floating surfaces and the Agents window, including panels, chat inputs, badges, progress states, gauges, and charts.
+- Added explicit colors for staged Git resources, unfocused tabs, Peek views, activity badges, comments, and newer quick input states.
+
+### Changed
+
+- Restored restrained accent focus rings so keyboard navigation remains visible without changing the theme's calm visual direction.
+- Separated editor, floating-panel, and elevated surfaces for clearer hierarchy in Modern UI.
+- Unified syntax roles across variants: functions remain distinct from HTML tags, and Vue component colors now agree between semantic and TextMate highlighting.
+- Added recommended Modern UI settings to the README.
+
 ## [0.1.0] - 2026-06-20
 
 ### Changed

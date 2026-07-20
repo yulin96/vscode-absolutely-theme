@@ -31,6 +31,7 @@ Absolutely Theme includes four balanced variants for different lighting conditio
 - Cleaner terminal output and readable low-priority editor text, including line numbers, CodeLens, and inline Git blame.
 - Restrained selection and border treatment so secondary UI stays calm and does not compete with code.
 - Accent colors are reserved for meaningful states like links, cursor, active items, search, and warnings.
+- Explicit Modern UI and Agents surfaces with clearer floating-panel separation and visible keyboard focus states.
 - Consistent light, warm light, dark, and dark warm variants.
 
 ---
@@ -74,6 +75,36 @@ Add this to your `settings.json` for a modern, distraction-free aesthetic:
   "workbench.startupEditor": "none"
 }
 ```
+
+### Modern UI Recommendations
+
+VS Code 1.129 introduced an experimental modern workbench with floating, rounded panels. Absolutely Theme includes dedicated surface, border, input, badge, and status colors for this layout.
+
+For a compact horizontal layout:
+
+```json
+{
+  "workbench.experimental.modernUI": true,
+  "workbench.activityBar.location": "top",
+  "workbench.activityBar.autoHide": false,
+  "workbench.shadows": false,
+  "window.customTitleBarVisibility": "auto",
+  "window.commandCenter": true,
+  "workbench.layoutControl.enabled": true,
+  "workbench.layoutControl.type": "toggles"
+}
+```
+
+If you prefer the traditional vertical Activity Bar, use its compact size instead:
+
+```json
+{
+  "workbench.activityBar.location": "default",
+  "workbench.activityBar.compact": true
+}
+```
+
+`workbench.activityBar.compact` only affects the vertical Activity Bar. Modern UI is still experimental, so its layout may change in future VS Code releases.
 
 ### Override Colors
 

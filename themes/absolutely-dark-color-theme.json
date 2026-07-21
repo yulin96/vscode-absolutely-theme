@@ -364,7 +364,7 @@
   },
   "semanticTokenColors": {
     "namespace": "#9B8AB3",
-    "variable": "#A98F73",
+    "variable": "#C0BAAF",
     "variable.readonly": "#A98F73",
     "variable.defaultLibrary": "#9B8AB3",
     "parameter": "#B58E7D",
@@ -466,7 +466,7 @@
     },
     {
       "scope": ["variable", "identifier"],
-      "settings": { "foreground": "#A98F73" }
+      "settings": { "foreground": "#C0BAAF" }
     },
     {
       "scope": ["meta.object-literal.key"],

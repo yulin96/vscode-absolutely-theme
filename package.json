@@ -51,11 +51,6 @@
         "label": "Absolutely Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/absolutely-dark-color-theme.json"
-      },
-      {
-        "label": "Absolutely Dark Warm",
-        "uiTheme": "vs-dark",
-        "path": "./themes/absolutely-dark-warm-color-theme.json"
       }
     ]
   }

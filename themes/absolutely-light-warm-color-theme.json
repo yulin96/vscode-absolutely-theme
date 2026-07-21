@@ -17,9 +17,9 @@
     "textCodeBlock.background": "#F3ECE2",
     "textPreformat.foreground": "#5E5A52",
     "textSeparator.foreground": "#F4EEE6",
-    "button.background": "#B8674C",
+    "button.background": "#A85438",
     "button.foreground": "#FFFDF8",
-    "button.hoverBackground": "#A85438",
+    "button.hoverBackground": "#98482F",
     "button.border": "#B8674C",
     "button.secondaryBackground": "#EEE5DA",
     "button.secondaryForeground": "#292723",
@@ -82,9 +82,9 @@
     "commandCenter.activeBackground": "#E9DDD0",
     "commandCenter.border": "#F4EEE6",
     "commandCenter.activeBorder": "#B8674C34",
-    "list.activeSelectionBackground": "#E5E0D8",
+    "list.activeSelectionBackground": "#DDD8D0",
     "list.activeSelectionForeground": "#292723",
-    "list.inactiveSelectionBackground": "#ECE8E1",
+    "list.inactiveSelectionBackground": "#E8E4DE",
     "list.inactiveSelectionForeground": "#292723",
     "list.hoverBackground": "#F0ECE6",
     "list.hoverForeground": "#292723",
@@ -167,7 +167,7 @@
     "editor.rangeHighlightBackground": "#8F6A2718",
     "editorLink.activeForeground": "#B8674C",
     "editorCodeLens.foreground": "#68635A",
-    "editorGhostText.foreground": "#6F6A60A0",
+    "editorGhostText.foreground": "#6F6A60C0",
     "git.blame.editorDecorationForeground": "#666666C0",
     "editorWhitespace.foreground": "#6F6A6040",
     "editorIndentGuide.background1": "#ECE6DD",
@@ -189,7 +189,7 @@
     "editorStickyScrollHover.background": "#F0E9DF",
     "editorStickyScroll.border": "#F4EEE6",
     "editorStickyScroll.shadow": "#00000000",
-    "editorInlayHint.foreground": "#766D61",
+    "editorInlayHint.foreground": "#675F55",
     "editorInlayHint.background": "#EEE5DA",
     "editorOverviewRuler.border": "#F4EEE6",
     "editorOverviewRuler.findMatchForeground": "#B8674C34",
@@ -233,20 +233,20 @@
     "terminalCursor.foreground": "#B8674C",
     "terminalCursor.background": "#FAF6ED",
     "terminal.ansiBlack": "#292723",
-    "terminal.ansiRed": "#A64F46",
-    "terminal.ansiGreen": "#477A35",
-    "terminal.ansiYellow": "#8B6A00",
+    "terminal.ansiRed": "#B63D36",
+    "terminal.ansiGreen": "#1F7A48",
+    "terminal.ansiYellow": "#8A6D2D",
     "terminal.ansiBlue": "#527487",
-    "terminal.ansiMagenta": "#65508C",
+    "terminal.ansiMagenta": "#786581",
     "terminal.ansiCyan": "#527A77",
     "terminal.ansiWhite": "#5E5A52",
     "terminal.ansiBrightBlack": "#5E5A52",
-    "terminal.ansiBrightRed": "#B9675E",
-    "terminal.ansiBrightGreen": "#648A51",
-    "terminal.ansiBrightYellow": "#9D7C2E",
-    "terminal.ansiBrightBlue": "#668596",
-    "terminal.ansiBrightMagenta": "#79669A",
-    "terminal.ansiBrightCyan": "#668A87",
+    "terminal.ansiBrightRed": "#A64F46",
+    "terminal.ansiBrightGreen": "#287B3F",
+    "terminal.ansiBrightYellow": "#8A650F",
+    "terminal.ansiBrightBlue": "#476F89",
+    "terminal.ansiBrightMagenta": "#6F58A5",
+    "terminal.ansiBrightCyan": "#477875",
     "terminal.ansiBrightWhite": "#292723",
     "gitDecoration.addedResourceForeground": "#2D7D4D",
     "gitDecoration.modifiedResourceForeground": "#2F7197",
@@ -285,9 +285,9 @@
     "widget.border": "#F4EEE6",
     "notebook.cellBorderColor": "#F4EEE6",
     "notebook.selectedCellBackground": "#B8674C18",
-    "extensionButton.prominentBackground": "#B8674C",
+    "extensionButton.prominentBackground": "#A85438",
     "extensionButton.prominentForeground": "#FFFDF8",
-    "extensionButton.prominentHoverBackground": "#A85438",
+    "extensionButton.prominentHoverBackground": "#98482F",
     "chat.requestBubbleBackground": "#B8674C18",
     "chat.requestBubbleHoverBackground": "#B8674C32",
     "textPreformat.background": "#EFE4D6",
@@ -355,21 +355,21 @@
     "agentsNewSessionButton.foreground": "#292723",
     "agentsNewSessionButton.border": "#E6DDD1",
     "agentsNewSessionButton.hoverBackground": "#B8674C12",
-    "agentsBadge.background": "#B8674C",
+    "agentsBadge.background": "#A85438",
     "agentsBadge.foreground": "#FFFDF8",
-    "agentsUnreadBadge.background": "#B8674C",
+    "agentsUnreadBadge.background": "#A85438",
     "agentsUnreadBadge.foreground": "#FFFDF8",
     "agentStatusIndicator.background": "#FFF9EE",
     "inlineChat.border": "#F4EEE6"
   },
   "semanticTokenColors": {
     "namespace": "#6F58A5",
-    "variable": "#9C6938",
-    "variable.readonly": "#9C6938",
+    "variable": "#4F4A43",
+    "variable.readonly": "#966235",
     "variable.defaultLibrary": "#6F58A5",
-    "parameter": "#9C6938",
-    "property": "#7F693C",
-    "property.readonly": "#7F693C",
+    "parameter": "#87592E",
+    "property": "#4F4A43",
+    "property.readonly": "#4F4A43",
     "function": "#24749A",
     "function.defaultLibrary": "#6F58A5",
     "method": "#24749A",
@@ -466,23 +466,23 @@
     },
     {
       "scope": ["variable", "identifier"],
-      "settings": { "foreground": "#9C6938" }
+      "settings": { "foreground": "#4F4A43" }
     },
     {
       "scope": ["meta.object-literal.key"],
-      "settings": { "foreground": "#7F693C" }
+      "settings": { "foreground": "#4F4A43" }
     },
     {
       "scope": ["variable.other.constant", "meta.definition.variable"],
-      "settings": { "foreground": "#9C6938" }
+      "settings": { "foreground": "#966235" }
     },
     {
       "scope": ["variable.parameter"],
-      "settings": { "foreground": "#9C6938" }
+      "settings": { "foreground": "#87592E" }
     },
     {
       "scope": ["variable.other.property", "meta.property-name", "support.type.property-name.json"],
-      "settings": { "foreground": "#7F693C" }
+      "settings": { "foreground": "#4F4A43" }
     },
     {
       "scope": ["variable.css", "variable.scss", "variable.less", "support.type.custom-property.name.css"],
@@ -506,7 +506,7 @@
     },
     {
       "scope": ["source.css support.type.property-name", "source.scss support.type.property-name", "source.less support.type.property-name"],
-      "settings": { "foreground": "#7F693C" }
+      "settings": { "foreground": "#4F4A43" }
     },
     {
       "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.class.scss", "entity.other.attribute-name.class.less"],

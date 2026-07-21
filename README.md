@@ -13,14 +13,13 @@ Absolutely Theme balances comfort with clarity: soft backgrounds, readable contr
 
 ## 🎨 Theme Variants
 
-Absolutely Theme includes four balanced variants for different lighting conditions:
+Absolutely Theme includes three balanced variants for different lighting conditions:
 
 | Variant                   | Type  | Description                                                           | Background |  Accent   |
 | :------------------------ | :---- | :-------------------------------------------------------------------- | :--------: | :-------: |
-| **Absolutely Light**      | Light | A clean light theme with soft contrast and crisp editor UI.           | `#FAF8F3`  | `#B8674C` |
-| **Absolutely Light Warm** | Light | A warmer paper-like light theme with the same readable syntax system. | `#FAF6ED`  | `#B8674C` |
+| **Absolutely Light**      | Light | The primary light theme with neutral warm-white surfaces.             | `#FAF8F3`  | `#A85438` |
+| **Absolutely Light Warm** | Light | The same readable color system on warmer paper-like surfaces.         | `#FAF6ED`  | `#A85438` |
 | **Absolutely Dark**       | Dark  | A calm dark theme with warm neutrals and clearer code/Git colors.     | `#252522`  | `#D98666` |
-| **Absolutely Dark Warm**  | Dark  | A warmer dark theme with a yellow-leaning editor surface.             | `#1F1D18`  | `#C79D45` |
 
 ---
 
@@ -32,7 +31,7 @@ Absolutely Theme includes four balanced variants for different lighting conditio
 - Restrained selection and border treatment so secondary UI stays calm and does not compete with code.
 - Accent colors are reserved for meaningful states like links, cursor, active items, search, and warnings.
 - Explicit Modern UI and Agents surfaces with clearer floating-panel separation and visible keyboard focus states.
-- Consistent light, warm light, dark, and dark warm variants.
+- Consistent light, warm light, and dark variants.
 
 ---
 

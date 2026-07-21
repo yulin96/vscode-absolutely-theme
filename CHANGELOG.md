@@ -11,12 +11,19 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 
 ### Changed
 
+- Prioritized Absolutely Light as the primary light palette, while keeping Absolutely Light Warm aligned to the same syntax and foreground system with warmer surfaces.
+- Improved button contrast, variable and property hierarchy, inlay hints, ghost text, selection states, and bright terminal ANSI colors across both light variants.
+- Aligned dark-theme variables with the light themes' neutral variable hierarchy.
 - Added a brighter editor canvas to both light variants so the sidebar, title bar, and panel retain a clear but comfortable surface contrast in Modern UI, while borders, scrollbars, and indentation guides remain visually restrained.
 - Raised the minimum supported VS Code version to 1.129 so Modern UI theme colors use the matching public color schema.
 - Restored restrained accent focus rings so keyboard navigation remains visible without changing the theme's calm visual direction.
 - Separated editor, floating-panel, and elevated surfaces for clearer hierarchy in Modern UI.
 - Unified syntax roles across variants: functions remain distinct from HTML tags, and Vue component colors now agree between semantic and TextMate highlighting.
 - Added recommended Modern UI settings to the README.
+
+### Removed
+
+- Removed the Absolutely Dark Warm variant to keep the theme family focused on Absolutely Light, Absolutely Light Warm, and Absolutely Dark.
 
 ## [0.1.0] - 2026-06-20
 

@@ -11,6 +11,7 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 
 ### Changed
 
+- Added a brighter editor canvas to both light variants so the sidebar, title bar, and panel retain a clear but comfortable surface contrast in Modern UI, while borders, scrollbars, and indentation guides remain visually restrained.
 - Raised the minimum supported VS Code version to 1.129 so Modern UI theme colors use the matching public color schema.
 - Restored restrained accent focus rings so keyboard navigation remains visible without changing the theme's calm visual direction.
 - Separated editor, floating-panel, and elevated surfaces for clearer hierarchy in Modern UI.

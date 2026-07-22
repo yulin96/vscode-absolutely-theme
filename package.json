@@ -2,7 +2,7 @@
   "name": "vscode-absolutely-theme",
   "displayName": "Absolutely Theme",
   "description": "A warm, calm, and minimalist color theme family (light, dark, warm light) for VS Code, designed to reduce eye strain with cozy, natural, low-contrast tones.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "publisher": "yulin96",
   "icon": "icon.png",
   "license": "MIT",

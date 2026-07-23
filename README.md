@@ -90,11 +90,14 @@ For a compact horizontal layout:
   "workbench.activityBar.autoHide": false,
   "workbench.shadows": false,
   "window.customTitleBarVisibility": "auto",
+  "window.controlsStyle": "custom",
   "window.commandCenter": true,
   "workbench.layoutControl.enabled": true,
   "workbench.layoutControl.type": "toggles"
 }
 ```
+
+On Windows, VS Code 1.130 defaults to native window controls. Their background can follow the system surface instead of the theme title bar, leaving a mismatched block around the minimize, maximize, and close buttons. Set `window.controlsStyle` to `custom` so the controls use the theme title bar colors.
 
 If you prefer the traditional vertical Activity Bar, use its compact size instead:
 

@@ -20,6 +20,7 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 - Separated editor, floating-panel, and elevated surfaces for clearer hierarchy in Modern UI.
 - Unified syntax roles across variants: functions remain distinct from HTML tags, and Vue component colors now agree between semantic and TextMate highlighting.
 - Added recommended Modern UI settings to the README.
+- Updated the Windows Modern UI recommendation for VS Code 1.130 so window controls use the theme title bar colors instead of the native system surface.
 
 ### Removed
 

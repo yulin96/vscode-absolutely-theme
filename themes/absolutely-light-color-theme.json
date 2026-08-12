@@ -5,6 +5,7 @@
   "semanticHighlighting": true,
   "colors": {
     "foreground": "#292723",
+    "surface.border": "#6F6A601F",
     "disabledForeground": "#6F6A6088",
     "descriptionForeground": "#766D61",
     "errorForeground": "#B0443D",

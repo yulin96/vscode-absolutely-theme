@@ -132,7 +132,7 @@
     "statusBarItem.prominentBackground": "#E9DDD0",
     "statusBarItem.prominentForeground": "#292723",
     "statusBarItem.prominentHoverBackground": "#DED3C1",
-    "toolbar.hoverBackground": "#EEE5DA",
+    "toolbar.hoverBackground": "#E6DCCF",
     "toolbar.activeBackground": "#E9DDD0",
     "editorGroupHeader.noTabsBackground": "#FDF8EE",
     "editorGroupHeader.tabsBackground": "#FDF8EE",

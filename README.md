@@ -4,9 +4,9 @@ A clean, calm, and readable color theme family for Visual Studio Code, inspired 
 
 Absolutely Theme balances comfort with clarity: soft backgrounds, readable contrast, restrained UI color, and carefully separated Vue / HTML syntax highlighting for long coding sessions.
 
-[![Marketplace Version](https://vsmarketplacebadges.dev/version/yulin96.vscode-absolutely-theme.svg?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
-[![Installs](https://vsmarketplacebadges.dev/installs/yulin96.vscode-absolutely-theme.svg?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
-[![Rating](https://vsmarketplacebadges.dev/rating/yulin96.vscode-absolutely-theme.svg?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![Marketplace Version](https://vsmarketplacebadges.dev/version/yulin96.vscode-absolutely-theme.png?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![Installs](https://vsmarketplacebadges.dev/installs/yulin96.vscode-absolutely-theme.png?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
+[![Rating](https://vsmarketplacebadges.dev/rating/yulin96.vscode-absolutely-theme.png?color=B8674C)](https://marketplace.visualstudio.com/items?itemName=yulin96.vscode-absolutely-theme)
 [![License](https://img.shields.io/github/license/yulin96/vscode-absolutely-theme?color=B8674C)](https://github.com/yulin96/vscode-absolutely-theme/blob/main/LICENSE)
 
 ---

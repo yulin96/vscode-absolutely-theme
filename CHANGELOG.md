@@ -11,6 +11,7 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 
 ### Changed
 
+- Unified hover and active backgrounds across activity icons, editor tabs, Modern UI tabs, and toolbar controls in both light variants, while keeping state contrast restrained.
 - Prioritized Absolutely Light as the primary light palette, while keeping Absolutely Light Warm aligned to the same syntax and foreground system with warmer surfaces.
 - Improved button contrast, variable and property hierarchy, inlay hints, ghost text, selection states, and bright terminal ANSI colors across both light variants.
 - Aligned dark-theme variables with the light themes' neutral variable hierarchy.

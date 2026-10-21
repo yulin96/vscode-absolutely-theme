@@ -110,6 +110,8 @@ If you prefer the traditional vertical Activity Bar, use its compact size instea
 
 `workbench.activityBar.compact` only affects the vertical Activity Bar. Modern UI is still experimental, so its layout may change in future VS Code releases.
 
+In VS Code 1.143, the `connected` editor tab style reads active background overrides from color customizations. Absolutely Theme supplies theme-scoped defaults for these colors so both `connected` and `pill` show the current tab against the unified editor background. Your own color customizations can override these defaults.
+
 ### Override Colors
 
 Want to tweak the background or another specific color? You can override any theme color in your user settings:

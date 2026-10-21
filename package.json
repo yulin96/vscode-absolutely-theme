@@ -36,6 +36,22 @@
     "soft"
   ],
   "contributes": {
+    "configurationDefaults": {
+      "workbench.colorCustomizations": {
+        "[Absolutely Light]": {
+          "modernEditorTab.activeBackground": "#F2F0EA",
+          "modernEditorTab.activeHoverBackground": "#EEEBE4"
+        },
+        "[Absolutely Light Warm]": {
+          "modernEditorTab.activeBackground": "#EBE4DB",
+          "modernEditorTab.activeHoverBackground": "#E6DDD2"
+        },
+        "[Absolutely Dark]": {
+          "modernEditorTab.activeBackground": "#303030",
+          "modernEditorTab.activeHoverBackground": "#343434"
+        }
+      }
+    },
     "themes": [
       {
         "label": "Absolutely Light",

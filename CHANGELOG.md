@@ -4,6 +4,12 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 
 ## [Unreleased]
 
+### Fixed
+
+- Added dedicated Modern UI editor tab colors for VS Code 1.143, aligning active pills with sidebar selection colors and hover feedback across all three themes.
+- Matched editor tab strip backgrounds to the editor canvas and removed the separator below the strip across all three themes.
+- Added theme-scoped color customization defaults so Modern UI connected tabs retain the same active background as pills without restoring the tab strip separator.
+
 ### Added
 
 - Added dedicated colors for the VS Code Modern UI floating surfaces and the Agents window, including panels, chat inputs, badges, progress states, and charts.

@@ -33,7 +33,7 @@ Absolutely Theme includes four variants for different lighting conditions:
 - Accent colors are reserved for meaningful states like links, cursor, active items, search, and warnings.
 - Explicit Modern UI and Agents surfaces with clearer floating-panel separation and visible keyboard focus states.
 - Consistent light, warm light, dark, and Proof variants.
-- Proof uses a unified paper background, green primary buttons, and neutral interaction states. Vue highlighting separates template tags, attribute names, and values while keeping static class values consistent with other attribute values.
+- Proof uses a unified paper background, green primary buttons, and neutral interaction states. Vue highlighting separates template tags, attribute names, and values while keeping script strings and static attribute values consistent.
 
 ---
 

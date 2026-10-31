@@ -18,6 +18,7 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 
 ### Changed
 
+- Unified script strings and HTML/Vue attribute values in Proof with the same blue.
 - Improved the contrast and separation of HTML and Vue template tags, attribute names, and values in Proof; static class values match other attribute values.
 - Unified hover and active backgrounds across activity icons, editor tabs, Modern UI tabs, and toolbar controls in both light variants, while keeping state contrast restrained.
 - Prioritized Absolutely Light as the primary light palette, while keeping Absolutely Light Warm aligned to the same syntax and foreground system with warmer surfaces.

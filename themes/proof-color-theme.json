@@ -461,18 +461,6 @@
     {
       "scope": ["string", "punctuation.definition.string", "attribute.value"],
       "settings": {
-        "foreground": "#9B554A"
-      }
-    },
-    {
-      "scope": [
-        "string.quoted.double.html",
-        "string.quoted.single.html",
-        "string.unquoted.html",
-        "string.quoted.double.html punctuation.definition.string",
-        "string.quoted.single.html punctuation.definition.string"
-      ],
-      "settings": {
         "foreground": "#315F86"
       }
     },

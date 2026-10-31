@@ -12,7 +12,7 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 
 ### Added
 
-- Added **Proof**, a light theme inspired by the Codex Proof palette, with a unified paper background, Vue-aware syntax highlighting, and VS Code 2026-style workbench colors.
+- Added **Proof**, a light theme inspired by the Codex Proof palette, with a unified paper background, green primary buttons, neutral interaction states, and Vue-aware syntax highlighting.
 - Added dedicated colors for the VS Code Modern UI floating surfaces and the Agents window, including panels, chat inputs, badges, progress states, and charts.
 - Added explicit colors for staged Git resources, unfocused tabs, Peek views, activity badges, comments, and newer quick input states.
 

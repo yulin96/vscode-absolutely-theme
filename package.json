@@ -1,7 +1,7 @@
 {
   "name": "vscode-absolutely-theme",
   "displayName": "Absolutely Theme",
-  "description": "A warm, calm, and minimalist color theme family (light, dark, warm light) for VS Code, designed to reduce eye strain with cozy, natural, low-contrast tones.",
+  "description": "A calm, minimalist color theme family for VS Code, with warm light, dark, and Proof variants.",
   "version": "0.2.8",
   "publisher": "yulin96",
   "icon": "icon.png",
@@ -49,6 +49,10 @@
         "[Absolutely Dark]": {
           "modernEditorTab.activeBackground": "#303030",
           "modernEditorTab.activeHoverBackground": "#343434"
+        },
+        "[Proof]": {
+          "modernEditorTab.activeBackground": "#EBE9E3",
+          "modernEditorTab.activeHoverBackground": "#E3E1D9"
         }
       }
     },
@@ -67,6 +71,11 @@
         "label": "Absolutely Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/absolutely-dark-color-theme.json"
+      },
+      {
+        "label": "Proof",
+        "uiTheme": "vs",
+        "path": "./themes/proof-color-theme.json"
       }
     ]
   }

@@ -13,13 +13,14 @@ Absolutely Theme balances comfort with clarity: soft backgrounds, readable contr
 
 ## 🎨 Theme Variants
 
-Absolutely Theme includes three balanced variants for different lighting conditions:
+Absolutely Theme includes four variants for different lighting conditions:
 
 | Variant                   | Type  | Description                                                           | Background |  Accent   |
 | :------------------------ | :---- | :-------------------------------------------------------------------- | :--------: | :-------: |
 | **Absolutely Light**      | Light | The primary light theme with neutral warm-white surfaces.             | `#FAF8F3`  | `#A85438` |
 | **Absolutely Light Warm** | Light | The same readable color system on warmer paper-like surfaces.         | `#FAF6ED`  | `#A85438` |
 | **Absolutely Dark**       | Dark  | A calm dark theme with warm neutrals and clearer code/Git colors.     | `#252522`  | `#D98666` |
+| **Proof**                 | Light | Paper-colored surfaces with green accents, inspired by Codex Proof.   | `#F5F3ED`  | `#3D755D` |
 
 ---
 
@@ -31,7 +32,8 @@ Absolutely Theme includes three balanced variants for different lighting conditi
 - Restrained selection and border treatment so secondary UI stays calm and does not compete with code.
 - Accent colors are reserved for meaningful states like links, cursor, active items, search, and warnings.
 - Explicit Modern UI and Agents surfaces with clearer floating-panel separation and visible keyboard focus states.
-- Consistent light, warm light, and dark variants.
+- Consistent light, warm light, dark, and Proof variants.
+- Proof uses the same paper background across the editor and workbench, with Vue-aware syntax highlighting for components, directives, and template expressions.
 
 ---
 

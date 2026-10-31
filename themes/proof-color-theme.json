@@ -466,17 +466,6 @@
     },
     {
       "scope": [
-        "meta.attribute.class.html string",
-        "meta.attribute.class.html.vue string",
-        "meta.attribute.class.html punctuation.definition.string",
-        "meta.attribute.class.html.vue punctuation.definition.string"
-      ],
-      "settings": {
-        "foreground": "#5F635A"
-      }
-    },
-    {
-      "scope": [
         "string.regexp",
         "constant.other.character-class.regexp",
         "keyword.operator.quantifier.regexp"

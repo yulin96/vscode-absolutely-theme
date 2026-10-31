@@ -466,6 +466,18 @@
     },
     {
       "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "string.unquoted.html",
+        "string.quoted.double.html punctuation.definition.string",
+        "string.quoted.single.html punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#315F86"
+      }
+    },
+    {
+      "scope": [
         "string.regexp",
         "constant.other.character-class.regexp",
         "keyword.operator.quantifier.regexp"
@@ -576,6 +588,22 @@
       }
     },
     {
+      "scope": ["entity.name.tag.html", "entity.name.tag.template.html.vue"],
+      "settings": {
+        "foreground": "#2F6B52"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.separator.key-value.html"
+      ],
+      "settings": {
+        "foreground": "#71544C"
+      }
+    },
+    {
       "scope": [
         "support.class.component",
         "support.class.component.vue",
@@ -679,7 +707,9 @@
         "entity.name.type.class.vue",
         "entity.name.tag.html.vue",
         "meta.tag.custom entity.name.tag",
-        "meta.tag.other.unrecognized.html.derivative entity.name.tag"
+        "meta.tag.custom entity.name.tag.html",
+        "meta.tag.other.unrecognized.html.derivative entity.name.tag",
+        "meta.tag.other.unrecognized.html.derivative entity.name.tag.html"
       ],
       "settings": {
         "foreground": "#5F6AC2"
@@ -687,13 +717,14 @@
     },
     {
       "scope": [
+        "entity.other.attribute-name.html",
         "entity.other.attribute-name.html.vue",
         "punctuation.attribute-shorthand.bind.html.vue",
         "punctuation.attribute-shorthand.event.html.vue",
         "punctuation.attribute-shorthand.slot.html.vue"
       ],
       "settings": {
-        "foreground": "#5F6AC2"
+        "foreground": "#994D3E"
       }
     }
   ]

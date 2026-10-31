@@ -461,16 +461,18 @@
     {
       "scope": ["string", "punctuation.definition.string", "attribute.value"],
       "settings": {
-        "foreground": "#3D755D"
+        "foreground": "#9B554A"
       }
     },
     {
       "scope": [
         "meta.attribute.class.html string",
-        "meta.attribute.class.html.vue string"
+        "meta.attribute.class.html.vue string",
+        "meta.attribute.class.html punctuation.definition.string",
+        "meta.attribute.class.html.vue punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#326F7B"
+        "foreground": "#5F635A"
       }
     },
     {

@@ -18,6 +18,7 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 
 ### Changed
 
+- Distinguished Proof Git history branches with muted colors, green current refs, blue remote refs, ochre base refs, and readable white ref labels.
 - Unified script strings and HTML/Vue attribute values in Proof with the same blue.
 - Improved the contrast and separation of HTML and Vue template tags, attribute names, and values in Proof; static class values match other attribute values.
 - Unified hover and active backgrounds across activity icons, editor tabs, Modern UI tabs, and toolbar controls in both light variants, while keeping state contrast restrained.

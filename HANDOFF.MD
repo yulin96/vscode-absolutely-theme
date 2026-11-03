@@ -14,4 +14,5 @@
 - `.github/workflows/publish.yml` 监听 `v*` tag，仅接受与 `package.json` 一致的正式版本 tag；校验四个主题 JSON 后生成 VSIX，上传 Actions artifact，再通过 `vsce publish --oidc --packagePath` 发布同一安装包到 Marketplace。没有配置 GitHub Release。
 - 2026-11-03 已在 Chrome 确认 Marketplace 的 `deploy-vscode-absolutely-theme` 策略为 Active，owner 为 `yulin96`、仓库为 `vscode-absolutely-theme`、工作流为 `publish.yml`，未指定 environment；工作流需保留 `id-token: write`，不需要 PAT。
 - npm 官方仓库未找到前期示例中的 `@vscode/vsce@4.0.2`；当前工作流固定为已核实存在的 `4.1.0`，要求 Node.js >=22。`.vscodeignore` 排除工作流、编辑器配置、Codex/技能目录、交接记录和旧 VSIX。
-- 本地已使用 `vsce@4.1.0` 实际打包，检查包内清单和四个主题 JSON，确认无开发文件或旧 VSIX；工作流 YAML 解析、匹配 tag 放行、版本不匹配及预发布 tag 拒绝均通过。尚未提交或推送工作流，也未运行 GitHub Actions 或实际发布。当前版本及已有 tag 为 `0.2.10` / `v0.2.10`，下一次发布需递增版本并创建新 tag。
+- 本地已使用 `vsce@4.1.0` 实际打包，检查包内清单和四个主题 JSON，确认无开发文件或旧 VSIX；工作流 YAML 解析、匹配 tag 放行、版本不匹配及预发布 tag 拒绝均通过。发布配置已随 `31aedec` 提交并同步至远程；`0.2.11` 为首次通过 tag 验证自动发布链路的版本。
+- 发布成功需同时核对对应 tag 的 Actions 运行结果和 Marketplace 返回的版本，不能以 tag 推送成功或 VSIX 打包成功替代发布确认。发布后的修复使用递增版本；不移动已发布的版本 tag。

@@ -38,6 +38,16 @@ All notable changes to the **Absolutely Theme** extension will be documented in 
 
 - Removed the Absolutely Dark Warm variant to keep the theme family focused on Absolutely Light, Absolutely Light Warm, and Absolutely Dark.
 
+## [0.2.11] - 2026-11-03
+
+### Added
+
+- Automated Marketplace publishing through GitHub Actions and Trusted Publishing when a matching stable version tag is pushed, with a downloadable VSIX artifact.
+
+### Changed
+
+- Excluded development configuration, handoff notes, and old VSIX packages from the published extension.
+
 ## [0.1.0] - 2026-06-20
 
 ### Changed

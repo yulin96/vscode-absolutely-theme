@@ -1,0 +1,53 @@
+name: Publish Extension
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check version and themes
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const manifest = require('./package.json');
+          const tag = process.env.GITHUB_REF_NAME;
+          if (!/^v\d+\.\d+\.\d+$/.test(tag) || tag !== `v${manifest.version}`) {
+            throw new Error(`Tag ${tag} must match package.json version v${manifest.version}`);
+          }
+          for (const theme of manifest.contributes.themes) {
+            JSON.parse(fs.readFileSync(theme.path, 'utf8'));
+          }
+          console.log(`Validated ${tag} and ${manifest.contributes.themes.length} themes`);
+          NODE
+
+      - name: Install publishing tool
+        run: npm install --global @vscode/vsce@4.1.0
+
+      - name: Package
+        run: vsce package --no-dependencies --out extension.vsix
+
+      - name: Upload package
+        uses: actions/upload-artifact@v4
+        with:
+          name: vscode-absolutely-theme-${{ github.ref_name }}
+          path: extension.vsix
+          if-no-files-found: error
+
+      - name: Publish to Marketplace
+        run: vsce publish --oidc --packagePath extension.vsix

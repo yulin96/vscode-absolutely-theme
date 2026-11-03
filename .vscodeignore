@@ -1,0 +1,7 @@
+.github/**
+.vscode/**
+.codex/**
+.agents/**
+.gitignore
+HANDOFF.MD
+**/*.vsix

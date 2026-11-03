@@ -128,6 +128,25 @@ Want to tweak the background or another specific color? You can override any the
 
 ---
 
+## Publishing
+
+Pushing a stable version tag such as `v0.2.11` runs `.github/workflows/publish.yml`: it validates the version and theme JSON, packages the extension, saves the VSIX as a GitHub Actions artifact, and publishes that same package to the VS Code Marketplace.
+
+The Marketplace publisher `yulin96` must have a Trusted Publishing policy for repository `yulin96/vscode-absolutely-theme` and workflow `publish.yml`, with no environment specified. Publishing uses OIDC; no PAT secret is required.
+
+For each release, update `package.json` and `CHANGELOG.md`, commit the changes (including the workflow for the first release), then push a tag matching the manifest version:
+
+```powershell
+# Example: package.json version is 0.2.11
+git tag v0.2.11
+git push origin main
+git push origin v0.2.11
+```
+
+The workflow rejects mismatched tags and prerelease tags. `.vscodeignore` excludes development files and old VSIX packages. Download the packaged VSIX from the workflow run's artifacts; this workflow does not create a GitHub Release. Use a new version for each Marketplace update.
+
+---
+
 ## 📄 License & Credits
 
 This project is licensed under the [MIT License](LICENSE).

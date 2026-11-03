@@ -16,3 +16,5 @@
 - npm 官方仓库未找到前期示例中的 `@vscode/vsce@4.0.2`；当前工作流固定为已核实存在的 `4.1.0`，要求 Node.js >=22。`.vscodeignore` 排除工作流、编辑器配置、Codex/技能目录、交接记录和旧 VSIX。
 - 本地已使用 `vsce@4.1.0` 实际打包，检查包内清单和四个主题 JSON，确认无开发文件或旧 VSIX；工作流 YAML 解析、匹配 tag 放行、版本不匹配及预发布 tag 拒绝均通过。发布配置已随 `31aedec` 提交并同步至远程；`0.2.11` 为首次通过 tag 验证自动发布链路的版本。
 - 发布成功需同时核对对应 tag 的 Actions 运行结果和 Marketplace 返回的版本，不能以 tag 推送成功或 VSIX 打包成功替代发布确认。发布后的修复使用递增版本；不移动已发布的版本 tag。
+- `v0.2.11` 对应发布提交 `43af716`，首次自动发布运行 `https://github.com/yulin96/vscode-absolutely-theme/actions/runs/41580705006` 已成功，日志明确记录 `Published yulin96.vscode-absolutely-theme v0.2.11`；用户已在 Marketplace 确认成功并要求停止继续查询。
+- 首次运行提示三个 `@v4` Action 使用 Node.js 20（runner 强制切到 Node.js 24）。已核对官方 release 及对应 `action.yml`，将 checkout、setup-node、upload-artifact 升级为 `@v7`，均声明 `using: node24`。Action 自身运行环境与 `setup-node` 安装的打包 Node.js 22 相互独立；升级 Action 即可消除此弃用警告，不需要修改打包版本或重新发布插件。
